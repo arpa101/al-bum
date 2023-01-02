@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family:'Frank Ruhl Libre' !important ;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*****************************  NAVBAR  *******************************************/
+.navbar a{
+    color: black;
+}
+
+.navbar a:hover{
+    color: rgb(27, 27, 245);
+}
+
+
+.nav-link{
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight:1000px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: white;
+
+}
+.navbar-brand{
+    color: white;
+    font-size: 30px;
+}
+
+/*****************************  SECTION1  *******************************************/
+
+.section1{
+    margin-bottom: 4%;
+}
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    -webkit-background-size:cover ;
+    background-size: cover;
+}
+
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:#000 ;
+    opacity: 0.5;
+}
+
+.carousel-item img{
+    height: 100%;
+    
+ }
+.carousel-caption{
+    bottom: 250px;
+}
+
+.carousel-caption h1{
+   font-size: 35px;
+   font-weight: bold;
+   margin-top: 25px;
+   color: whitesmoke;
+   text-shadow: rgb(215, 225, 236) 1px 0 2px;
+}
+.carousel-caption p{
+    font-size: 25px;
+    
+    color: whitesmoke
+ }
+
+ .d-flex{
+    margin-top: 3%;
+    text-align: center;
+ }
+
+ .search{
+    width: 30%;
+    margin-left: 30%;
+ }
+
+/*****************************  SECTION2  *******************************************/
+.section2{
+    margin-top: 3%;
+}
+.section2 h2{
+    text-align: center;
+}
+
+.section2 .FindHeader{
+    width: 100%;
+    height: 60px;
+    margin:0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+}
+
+.section2 header p span{
+  
+    margin:0px 3px;
+}
+
+
+.section2  .FindHeader img{
+  margin-top: 90px;
+    
+}
+.section2 .move img{
+     height: 34px;
+}
+
+.slider{
+    margin-top: 0%;
+    overflow: hidden;
+}
+.slider .Cate{
+ margin: 0px 5px ;
+ left:0px;
+ position: relative;
+ transition: 0.5s;
+ right: 0px;
+ width: 5000px;
+ 
+}
+
+
+
+.slider .Cate img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    opacity: 78%;
+}
+.slider .Cate img:hover{
+   opacity: 100%;
+   border: 5px solid rgb(113, 113, 238);
+   transition: 0.1s;
+ 
+}
+
+.slider .Cate p{
+    margin-top: 3%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Frank Ruhl Libre';
+    line-height: 24px;
+}
+
+.move img{
+    height: 23px;
+    cursor: pointer;
+}
+
+.section2 h4{
+    font-size: 18px;
+}
+/*****************************  SECTION3  *******************************************/
+.section3 .card{
+    margin-bottom: 5%;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgb(163, 158, 158);
+}
+.section3 .card img{
+    width: 100%;
+    height: 300px;
+    
+}
+
+
+.section3 h3{
+    text-align: center;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: black;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+}
+/*****************************  Footer  *******************************************/
+
+.footer{
+    margin-top: 3%;
+}
+.footer img{
+    width: 95%;
+    height: 80px;
+    padding: 2px 0px;
+}
+
+.footer .col-md-4{
+    padding: 0px;
+}
+.footer .col-ms-2{
+    padding: 0px;
+}
+.footer a {
+    color: #869fb2;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+.footer a:hover{
+    margin-left: 10px;
+    color: snow;
+}
+.footer .icon .btn{
+    padding: 10px 15px;
+}
+
+.footer .icon .btn-info{
+color: white;
+}
+.footer .icon .btn-info:hover{
+    color: white;
+    background-color: rgb(34, 170, 248);
+    border: 1px solid rgb(34, 170, 248)  ;
+    }
+.footer .icon .btn-warning{
+    color: white;
+    background-color: rgb(241, 158, 90);
+    border:1px solid rgb(241, 158, 90);
+}
+
+.footer .icon .btn-warning:hover{
+    color: white;
+    background-color: rgb(243, 140, 55);
+    border:1px solid  rgb(243, 140, 55);
+}
+
+.footer .asset p{
+    color: #869fb2;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer .asset .btn{
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+.footer .last .lastt{
+    float: right;
+    margin-top: -3%;
+}
+
+
+
+/*-------------------------------------------------------------------------------------*/
+
+@media all and (max-width:767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-item{
+        height: 80vh;
+        max-height: 450px;
+    }
+    .carousel-item img{
+       height: 100%;
+    }
+    .carousel-caption h1 {
+        font-size:17px;
+     }
+     .carousel-caption p {
+        font-size:17px;
+     }
+    .carousel-caption {
+        bottom: 150px;
+     }
+    .carousel-caption .search{
+        width: 70%;
+        margin-left: 12%;
+    }
+    .section2{
+        margin-top: 5%;
+    }
+    .section2 h2{
+        text-align: center;
+    }
+    .section2  .FindHeader img{
+      margin-top: 50px;
+    }
+    .section2 .move img{
+         height: 20px;
+         width: 20px;
+
+    }
+    .section2 h4{
+        font-size: 15px;
+    }
+    .slider .Cate img{
+        width: 90px;
+        height: 90px;
+    }
+    .slider .Cate p{
+        font-size: 16px;
+    }
+    .footer .container{
+        text-align: center;
+    }
+    .footer .icon .btn{
+        padding: 8px 8px;
+    }
+    .footer .asset .btn{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .footer  .lastt {
+       float:center;
+    margin-right: 28%;
+    }
+
+ 
+    .footer img{
+        width: 40%;
+        height: 80px;
+        padding: 2px 1px;
+
+    }
+}

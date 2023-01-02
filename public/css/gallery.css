@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family:'Frank Ruhl Libre' !important ;
+}
+
+a{
+    text-decoration: none;
+}
+/************************  NAVBAR  ************************************/
+.navbar .navtext a{
+    font-size: 0px;
+    visibility: hidden;
+    margin-right:-4%;
+}
+
+
+
+
+.nav-link{
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight:1000px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: white;
+}
+.navbar-brand {
+    color: white;
+    font-size: 30px;
+}
+
+
+
+/************************  SECTION1  ************************************/
+
+.section1{
+    justify-content: space-between;
+}
+
+.section1 .d-flex{
+    overflow: hidden;
+}
+
+.section1 .d-flex .left{
+    float: left;
+    width: 60%;
+    margin-top: 8%;
+    margin-left: 50px;
+    
+
+}
+
+.section1 .d-flex .right{
+    float: right;
+    width: 25%;
+    margin-left: 10%;
+}
+
+.section1 .header{
+    width: 100%;
+}
+
+.FindHeader .move{
+
+    margin:0px 500px;
+    
+}
+
+.text{
+    color: blue;
+    cursor: pointer;
+}
+
+/************************  SECTION2  ************************************/
+.section2{
+   padding: 50px;
+}
+.section2 .card{
+    margin-top: 3%;
+    margin-bottom: 5%;
+    opacity: 80%;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+  
+}
+
+
+.section2 .card img{
+    width: 100%;
+    height: 180px;
+    border-radius: 5%;
+    opacity: 70%;
+    transition: 0.9s;
+   
+}
+
+.section2 .card:hover img{
+    height: 180px;
+    border-radius: 5%;
+    opacity: 100%;
+    border-radius: 2%;
+    transform: scale(1.1);
+    
+}
+
+.section2 .card:hover{
+    opacity: 100%;
+    transition: 0.1s;  
+}
+
+.section2 .card-body h1{
+    font-family: PT Serif;
+    font-size: 25px;
+    color: black;
+    opacity: 100%;
+}
+.section2 .card:hover .card-body h1{
+    font-family: PT Serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-shadow: rgb(83, 86, 88) 1px 0 5px;
+    
+}
+
+.section2 .upfile{
+  margin-top: 2%;
+  width: 20%;
+  margin-left: 950px;
+}
+
+
+/************************  SECTION3  ***********************************/
+.section3{
+    padding: 3%;
+}
+.section3 .FindHeader{
+    width: 98%;
+    height: 60px;
+    margin:0px auto;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    
+}
+.section3 header p span{
+  
+    margin:0px 5px;
+}
+.slider{
+    overflow: hidden;
+}
+.slider .Categ{
+ margin: 0px 3px ;
+ left:0px;
+ position: relative;
+ transition: 0.5s;
+ right: 0px;
+ width: 5000px;
+ height: 40px;
+ 
+}
+.slider .Categ button{
+    width: 119px;
+    font-size: 20px;
+    font-weight: 50px;
+    font-family: 'Frank Ruhl Libre';
+    line-height: 24px;  
+}
+
+.moved img{
+    height: 23px;
+    cursor: pointer;
+    height: 25px;   
+}
+
+/************************  SECTION4  ***********************************/
+.footer{
+    margin-top: 3%;
+}
+
+.section4{
+    padding: 2px;
+ }
+ .section4 .card{
+     margin-top: 3%;
+     margin-bottom: 5%;
+     border: none;
+ }
+ 
+ .section4 .card{
+     cursor: pointer;
+     overflow: hidden;
+ }
+ .section4 .card:hover{
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px rgb(39, 39, 39);
+}
+ .section4 .card img{
+    width: 100%;
+     height: 250px;
+     border-radius: 2%;
+     transition: 0.9s;
+ }
+ 
+ .section4 .card:hover img    {
+     
+     border-radius: 2%;
+     transform: scale(1.1);
+     
+     
+ }
+ 
+  .section4 .card .card-img-overlay img{
+       height: 20px;
+      visibility: hidden;
+  }
+
+  .section4 .card .card-img-overlay .dropdown{
+    float:right;
+  }
+
+  .section4 li{
+    list-style-type: none;
+  }
+
+  .section4 .card:hover .card-img-overlay img{
+    height: 30px;
+    visibility: visible;
+    transform: scale(1.1);
+}
+
+.section4 h5{
+    font-weight: bold;
+}
+
+.section4 lable{
+    font-weight: bold; 
+}
+
+/*****************************  Footer  *******************************************/
+
+.footer{
+    margin-top: 3%;
+}
+.footer img{
+    width: 95%;
+    height: 80px;
+    padding: 2px 0px;
+}
+
+.footer .col-md-4{
+    padding: 0px;
+}
+.footer .col-ms-2{
+    padding: 0px;
+}
+.footer a {
+    color: #869fb2;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+.footer a:hover{
+    margin-left: 10px;
+    color: snow;
+}
+.footer .icon .btn{
+    padding: 10px 15px;
+}
+
+.footer .icon .btn-info{
+color: white;
+}
+.footer .icon .btn-info:hover{
+    color: white;
+    background-color: rgb(34, 170, 248);
+    border: 1px solid rgb(34, 170, 248)  ;
+    }
+.footer .icon .btn-warning{
+    color: white;
+    background-color: rgb(241, 158, 90);
+    border:1px solid rgb(241, 158, 90);
+}
+
+.footer .icon .btn-warning:hover{
+    color: white;
+    background-color: rgb(243, 140, 55);
+    border:1px solid  rgb(243, 140, 55);
+}
+
+.footer .asset p{
+    color: #869fb2;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer .asset .btn{
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+.footer .last .lastt{
+    float: right;
+    margin-top: -3%;
+}
+
+
+
+/*-------------------------------------------------------------------------------------*/
+
+@media all and (max-width:767px){
+    .navbar-nav{
+        text-align: center;
+        
+    }
+    .navbar .navtext a{
+        font-size: 30px;
+       visibility: visible;
+    }
+
+    .navbar-brand {
+        font-size: 0px;
+        color: white;
+        visibility: hidden;
+    }
+   .navbar .btn{
+    padding: 10px 15px;
+   }
+   
+  /** .navbar .form-control{
+    width: 400px;
+   }*/
+ .section3{
+    padding: 3%;
+  }
+  
+
+.section3 .slider .Categ button{
+    width: 97px;
+    font-size: 18px;
+    font-weight: 50px;
+    font-family: 'Frank Ruhl Libre';
+    line-height: 24px;  
+}
+
+.footer .container{
+    text-align: center;
+}
+.footer .icon .btn{
+    padding: 8px 8px;
+}
+.footer .asset .btn{
+    padding: 10px 15px;
+    font-size: 15px;
+}
+.footer  .lastt {
+   float:center;
+  margin-right: 28%;
+}
+.footer img{
+    width: 40%;
+    height: 80px;
+    padding: 2px 1px;
+
+}
+    
+}
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
